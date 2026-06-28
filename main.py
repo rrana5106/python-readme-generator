@@ -7,4 +7,3 @@ description = result["description"]
 print(result)
 # fav_lang = result[1]
 # confirm = result[2]
-
