@@ -1,0 +1,26 @@
+questions = [
+    {"type": "input",
+     "message": "What's the title of your readme:",
+    "name": "name"},
+    {"type": "input",
+     "message": "Write a short description of readme",
+    "name": "description"},
+    {"type": "input",
+     "message": "Write a installation procedure of readme",
+    "name": "procedure"},
+    {
+    "type": "list",
+    "message": "Choose the license of readme:",
+    "choices": ["MIT", "Apache 2.0", "BSD", "GPL", "AGPL"],
+    },
+    {"type": "input",
+     "message": "Author Name: ",
+    "name": "author"},
+    {
+    "type": "list",
+    "message": "Choose the contact:",
+    "choices": ["email","Phone"],
+    },
+    # {"type": "confirm",
+    #   "message": "Confirm?"},
+]
