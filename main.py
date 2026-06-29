@@ -1,9 +1,20 @@
 from InquirerPy import prompt
 from questions import questions
+from projects import ReadmeProject
+# from readmeGenerator import readmeGenerator
+
 
 result = prompt(questions)
-title_name = result["name"]
-description = result["description"]
-print(result)
-# fav_lang = result[1]
-# confirm = result[2]
+
+project = ReadmeProject(
+    result["title"],
+    result["description"],
+    result["installation"],
+    result["usage"],
+    result["license"],
+    result["author"],
+    result["contact_type"],
+    result["contact_info"]
+)
+
+print(project.title)
