@@ -1,6 +1,7 @@
-
-
+# This class stores all the project information
 class ReadmeProject:
+   
+     # Initialise the project with the user's answers 
     def __init__(self,title, description,installation,usage,license, author, contact_type,contact_info):
         self.title = title
         self.description = description
