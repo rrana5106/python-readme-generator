@@ -7,6 +7,6 @@ class FileWriter:
     
     # Write the content into the file
     def write(self,content):
-        with open(self.filename, "w") as file:
+        with open(self.filename, "w", encoding="utf-8") as file:
             file.write(content)
         

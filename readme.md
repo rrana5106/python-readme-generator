@@ -1,19 +1,19 @@
-# Test
+# README Generator
 
 ## Description
-test
+A python application that generate a README.md file
 
 ## Installation
-test
+install python and inquirerPy
 
 ## Usage
-test
+run python3 main.py and answer the prompts.
 
 ## License
 MIT
 
 ## Author
-rana
+Rupesh
 
 ## Contact
-email: 
+email: test@gmail.com
